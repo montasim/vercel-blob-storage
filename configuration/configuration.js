@@ -12,20 +12,7 @@ const configuration = {
         url: process.env.NEXT_PUBLIC_REDIS_URL,
     },
     blob: {
-        url: process.env.NEXT_PUBLIC_REDIS_URL,
-    },
-    timeout: process.env.NEXT_PUBLIC_TIMEOUT_IN_SECONDS,
-    cache: {
-        timeout: process.env.NEXT_PUBLIC_CACHE_TTL_IN_SECONDS,
-    },
-    jsonPayloadLimit: process.env.NEXT_PUBLIC_JSON_PAYLOAD_LIMIT,
-    cors: {
-        origin: process.env.NEXT_PUBLIC_CORS_ORIGIN,
-        methods: process.env.NEXT_PUBLIC_CORS_METHODS,
-    },
-    rateLimit: {
-        windowMs: process.env.NEXT_PUBLIC_RATE_LIMIT_WINDOW_MS,
-        max: process.env.NEXT_PUBLIC_RATE_LIMIT_MAX,
+        url: process.env.NEXT_PUBLIC_BLOB_READ_WRITE_TOKEN,
     },
     googleDrive: {
         scope: process.env.NEXT_PUBLIC_GOOGLE_DRIVE_SCOPE,
@@ -34,9 +21,6 @@ const configuration = {
         folderKey: process.env.NEXT_PUBLIC_GOOGLE_DRIVE_FOLDER_KEY,
     },
     apiUrl: process.env.NEXT_PUBLIC_API_URL,
-    service: {
-        sendEmail: process.env.NEXT_PUBLIC_SEND_EMAIL_SERVICE,
-    },
 };
 
 export default configuration;

@@ -1,7 +1,8 @@
 import axios from 'axios';
+import configuration from '@/configuration/configuration';
 
 const axiosInstance = axios.create({
-    baseURL: 'https://authentication-mocha-three.vercel.app',
+    baseURL: configuration.apiUrl,
     timeout: 15000,
     headers: {
         'Content-Type': 'application/json',
