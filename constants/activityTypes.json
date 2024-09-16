@@ -1,0 +1,26 @@
+[
+  {
+    "id": "account-status-pqrstuvwxyza",
+    "name": "ACTIVE",
+    "value": "active",
+    "description": "/**\n * Represents an active account status.\n *\n * This status indicates that the account is currently active and in use. The user has full access to all features and functionalities\n * of the application. An active account is fully operational and not restricted in any way.\n */"
+  },
+  {
+    "id": "account-status-qrsuvwxyzab",
+    "name": "INACTIVE",
+    "value": "inactive",
+    "description": "/**\n * Represents an inactive account status.\n *\n * This status indicates that the account is not currently in use but may be reactivated in the future. The user may have limited\n * access or no access to certain features or functionalities until the account is reactivated.\n */"
+  },
+  {
+    "id": "account-status-rstuvwxyzac",
+    "name": "DELETED",
+    "value": "deleted",
+    "description": "/**\n * Represents a deleted account status.\n *\n * This status indicates that the account has been permanently deleted. All data associated with the account has been removed,\n * and the account can no longer be accessed or recovered.\n */"
+  },
+  {
+    "id": "account-status-stuvwxyzad",
+    "name": "RESTRICTED",
+    "value": "restricted",
+    "description": "/**\n * Represents a restricted account status.\n *\n * This status indicates that the account is subject to certain limitations or restrictions. The user may have limited access to\n * certain features or functionalities, possibly due to policy violations or other issues. The account may be under review or\n * subject to further action.\n */"
+  }
+]
