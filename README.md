@@ -1,6 +1,6 @@
-[//]: # 'NEXT JS FILE UPLOAD'
+[//]: # 'VERCEL BLOB STORAGE'
 
-# <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=1&pause=1&color=EB008B&center=true&vCenter=true&repeat=false&width=250&height=40&lines=NEXT+JS+FILE+UPLOAD" alt="NEXT JS FILE UPLOAD" />
+# <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=1&pause=1&color=EB008B&center=true&vCenter=true&repeat=false&width=270&height=40&lines=VERCEL+BLOB+STORAGE" alt="VERCEL BLOB STORAGE" />
 
 [//]: # '<!-- GitHub actions badges start -->'
 [//]: # '<div>'
@@ -53,13 +53,9 @@
 
 ## <img loading="lazy" src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=20&duration=1&pause=1&color=00B8B5&center=true&vCenter=true&repeat=false&width=120&height=40&lines=1.+FEATURES" alt="1. FEATURES" id="1-features" />
 
-1. Signup
-2. Verify email
-3. Resend email verification
-4. Request new password
-5. Reset password
-6. Login
-7. Logout
+1. Upload file
+2. View file / Download file
+3. Delete file
 
 <br/>
 
@@ -77,7 +73,7 @@
 
     ```bash
     git clone https://github.com/montasim/vercel-blob-storage.git
-    cd authentication
+    cd vercel-blob-storage
     ```
 
 2. **Install the dependencies:**
